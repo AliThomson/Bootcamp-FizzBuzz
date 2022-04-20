@@ -1,7 +1,11 @@
+const prompt = require('prompt-sync')({sigint: true});
+
+const upperLimit = prompt('How high shall we go?');
+
 function isDivisbleBy(n,divisor) {
     return n % divisor === 0;
 }
-for (let i = 1; i<=200; i++){
+for (let i = 1; i<=Number(upperLimit); i++){
     let outputArr = [];
     let fezz = "";
     if (isDivisbleBy(i,3)) {

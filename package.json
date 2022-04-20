@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AliThomson/Bootcamp-FizzBuzz/issues"
   },
-  "homepage": "https://github.com/AliThomson/Bootcamp-FizzBuzz#readme"
+  "homepage": "https://github.com/AliThomson/Bootcamp-FizzBuzz#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
