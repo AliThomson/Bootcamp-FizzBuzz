@@ -22,7 +22,11 @@ for (let i = 1; i<=Number(upperLimit); i++){
         outputArr.push("Bang");
     }
     if (isDivisbleBy(i,11)) {
-        outputArr= [fezz + "Bong"];
+
+        outputArr= ["Bong"];
+        if (fezz){
+            outputArr.unshift("Fezz");
+        }
     }
 
     if (isDivisbleBy(i,17)) {
